@@ -181,15 +181,7 @@ class GameEngine:
         if not self.finished:
             return "Game in progress."
         if self.result == "agent_lost":
-            last = self.transcript[-1]
-            return (
-                f"You lost — you said a forbidden word "
-                f"(\"{last.foul.matched}\" → \"{last.foul.word}\")."
-            )
+            return "You lost — you said a forbidden word."
         if self.result == "agent_won":
-            last = self.transcript[-1]
-            return (
-                f"You won — your opponent said a forbidden word "
-                f"(\"{last.foul.matched}\" → \"{last.foul.word}\")."
-            )
+            return "You won — your opponent said a forbidden word."
         return f"Draw — you survived {self.agent_turns} turns without slipping."
