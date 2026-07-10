@@ -124,7 +124,7 @@ def _phase1_tasks() -> list[TaskSpec]:
             opponent_model="gpt-4o-mini",
             opponent_script=["Hey, glad you sat down. Ready to start whenever you are — shall we?"],
             opponent_first=True,
-            max_turns=14,
+            max_turns=40,
         ),
         TaskSpec(
             id="p1-llm-interrogator",
@@ -134,7 +134,7 @@ def _phase1_tasks() -> list[TaskSpec]:
             opponent_model="gpt-4o-mini",
             opponent_script=["Alright, game's on. Quick — is this your first time playing?"],
             opponent_first=True,
-            max_turns=14,
+            max_turns=40,
         ),
     ]
 
