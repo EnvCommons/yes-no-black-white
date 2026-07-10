@@ -1,0 +1,124 @@
+THE RULES OF CHESS (FIDE Laws, extended reference)
+
+0. NATURE OF THE GAME
+Chess is a two-player game of perfect information played on a chequered board.
+Each side commands an army of sixteen pieces, and the two armies are told apart
+only by their shade: one army is of the lighter tint, the other of the darker
+tint. Throughout this reference we speak of "the light army" and "the dark army",
+of "light squares" and "dark squares", never naming an actual colour. The object
+is to trap the enemy king so that it cannot escape capture — a state called
+checkmate. There is no element of chance; every outcome follows from the moves
+the two players choose.
+
+1. THE BOARD
+The board is a square of eight ranks and eight files, giving sixty-four squares
+in all. The squares alternate between a lighter tint and a darker tint, and the
+board is oriented so that each player has a light square at the near-right
+corner ("light on right"). The ranks are numbered 1 to 8 counting away from the
+light army's side; the files are lettered a to h from the light army's left to
+its right. Every square therefore has a unique coordinate such as e4, g7, or a1.
+The a1 corner square lies on the darker tint; the h1 corner lies on the lighter
+tint. A "diagonal" is a line of squares of a single tint running corner to
+corner. The four central squares — d4, d5, e4, e5 — form the centre, the most
+valuable real estate on the board.
+
+2. THE PIECES AND THEIR STARTING POSITION
+Each side has one king, one queen, two rooks, two bishops, two knights, and
+eight pawns. On the first rank the pieces stand, from the a-file across: rook,
+knight, bishop, queen, king, bishop, knight, rook. The queen begins on a square
+of her own tint (the light queen on a light square, the dark queen on a dark
+square); the king stands beside her. The eight pawns fill the entire second rank
+in front of the pieces. The light army occupies ranks 1 and 2; the dark army
+occupies ranks 7 and 8. The light army always makes the opening move of the
+game, and the dark army replies; thereafter the two sides alternate, one move at
+a time, and a player may never decline to move when it is their turn.
+
+3. HOW THE PIECES MOVE
+- The king steps one square in any direction — along a rank, a file, or a
+  diagonal — provided the destination is not attacked by an enemy piece.
+- The queen, the most powerful piece, slides any number of empty squares along a
+  rank, a file, or a diagonal.
+- A rook slides any number of empty squares along a rank or a file.
+- A bishop slides any number of empty squares along a diagonal; because a
+  diagonal never changes tint, each bishop is confined forever to squares of a
+  single tint. One bishop travels the light squares, its partner the dark.
+- A knight leaps in an L-shape: two squares along one line and then one square
+  perpendicular. Alone among the pieces it jumps over anything in its path, and
+  it always lands on a square of the opposite tint to the one it left.
+- A pawn advances one square straight forward toward the far side, or two squares
+  forward from its own starting rank, and it captures one square diagonally
+  forward. A pawn can never move backward.
+A piece captures by moving onto a square occupied by an enemy piece, which is
+then removed from the board. The king is never actually captured; instead the
+game ends when its capture cannot be prevented.
+
+4. SPECIAL MOVES
+- Castling is a single move of the king and one rook. The king moves two squares
+  toward the rook, and that rook leaps to the square the king has just crossed.
+  It is permitted only if neither the king nor that rook has moved before, if the
+  squares between them are empty, and if the king is not in check, does not pass
+  through an attacked square, and does not land on one. Castling on the king's
+  own wing is "short"; on the queen's wing it is "long".
+- En passant ("in passing"): if a pawn advances two squares and thereby lands
+  beside an enemy pawn, that enemy pawn may, on the very next move only, capture
+  it as though it had advanced a single square.
+- Promotion: a pawn that reaches the far rank is at once exchanged for a queen,
+  rook, bishop, or knight of its own army — the player chooses, and almost always
+  chooses a queen. A player may thus, in principle, come to hold several queens.
+
+5. CHECK, CHECKMATE, AND STALEMATE
+A king attacked by an enemy piece is "in check". The player in check must remove
+the attack at once, by one of three means: capturing the attacker, blocking the
+line of attack with another piece, or moving the king to a safe square. A player
+may never make a move that leaves, or places, their own king in check. If a king
+is in check and there is no legal move that removes the attack, the position is
+checkmate and the game ends immediately; the side delivering mate wins. If the
+player to move is not in check but has no legal move at all, the position is
+stalemate, and the game is drawn.
+
+6. HOW A GAME IS DECIDED
+A game is won by delivering checkmate, or when the opponent resigns, or when the
+opponent oversteps the time limit. A game is drawn by stalemate; by mutual
+agreement; by threefold repetition of the identical position; by the fifty-move
+rule (fifty consecutive moves by each side with no capture and no pawn move); or
+when insufficient material remains for either side to force checkmate — for
+example a lone king against a lone king. In competition a win scores one point, a
+draw half a point each, and a loss zero.
+
+7. NOTATION
+Moves are written in algebraic notation. Each piece has a letter — K for king, Q
+for queen, R for rook, B for bishop, N for knight — while a pawn move is written
+by its destination square alone. Thus Nf3 means a knight moves to f3, and e4
+means a pawn moves to e4. A capture is marked with an "x" (Bxe5), check with "+",
+checkmate with "#". Castling short is written O-O and castling long O-O-O. When
+two like pieces could reach the same square, the file or rank of origin is added
+to remove doubt.
+
+8. PHASES OF A GAME
+Play divides loosely into three phases. In the OPENING the two sides develop
+their pieces off the back rank, fight for the centre, and bring the king to
+safety by castling; sound principles are to occupy the centre, to move each piece
+but once until development is complete, and to castle early. In the MIDDLEGAME
+the armies clash: players form plans, create threats, combine pieces into
+attacks, and weigh sacrifices of material for initiative. In the ENDGAME, with
+few pieces left, the king turns from a liability into a fighting piece, and the
+promotion of a pawn to a queen often decides the outcome.
+
+9. RELATIVE VALUE OF THE PIECES
+As a rough guide, a pawn is worth one point, a knight and a bishop about three
+each, a rook five, and a queen nine; the king is beyond price, since losing it
+loses the game. These values are only a guide: an active knight may outweigh a
+passive rook, and a well-timed sacrifice may be worth far more than the material
+it gives up. Two bishops working together are reckoned slightly stronger than a
+bishop and a knight, because the pair between them can cover squares of either
+tint.
+
+10. CONDUCT AND THE CLOCK
+Serious games are played with a chess clock that gives each side a fixed budget
+of time; a player whose time runs out loses, unless the opponent has no way to
+mate, in which case the game is drawn. Under the touch-move law a player who
+deliberately touches one of their own pieces must move it if it has a legal move,
+and a player who touches an enemy piece must capture it if that is legal; to
+adjust a piece without moving it a player first says "I adjust". Moves are
+completed with the same hand that presses the clock. Players must behave so as
+not to distract or annoy the opponent, and the arbiter oversees fair play.

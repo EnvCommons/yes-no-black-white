@@ -1,0 +1,104 @@
+Chromatic Priming and Lexical Avoidance under Cognitive Load:
+A Randomized Study of Constrained Dialogue in Large Language Models
+
+ABSTRACT
+We investigate whether conversational agents can maintain a simple, absolute
+lexical constraint — a prohibition on uttering four target tokens — while
+processing large volumes of intervening context. Across 1,240 dialogue episodes
+we manipulated (a) the length of task-irrelevant context preceding the critical
+question, (b) the semantic proximity of the opponent's prompts to the forbidden
+tokens, and (c) the presence of explicit override instructions. We find that
+constraint adherence degrades monotonically with context length, that colour
+questions elicit the highest slip rate, and that naive agreement prompts ("you
+agree, correct?") are more dangerous than direct colour queries. We argue that
+lexical avoidance is best modelled as a sustained inhibitory control task rather
+than a one-shot classification. All materials and the evaluation harness are
+released for replication.
+
+1. INTRODUCTION
+Human party games have long exploited a paradox of attention: the harder one
+tries not to think of a word, the more available that word becomes. The game
+known in Hebrew as Ken–Lo–Shachor–Lavan, and in the English parlour tradition as
+"Yes and No", forbids four everyday words and rewards players who trap opponents
+into blurting them. The game is trivial to state yet surprisingly hard to play,
+because the forbidden words are precisely the ones that ordinary cooperative
+conversation most wants to produce. This tension makes the game a compact probe
+of inhibitory control.
+
+Large language models are trained to be maximally helpful and agreeable, which is
+exactly the disposition the game punishes. A model asked "the sky on a clear day
+is which colour?" is pulled toward the single most probable completion. A model
+asked "so you understand the rules, correct?" is pulled toward affirmation. The
+present study asks how robust that avoidance is when the model must also carry a
+large, distracting context.
+
+2. RELATED WORK
+Prior studies of constraint-following in dialogue have focused on single-turn
+refusals and on content policies rather than on token-level prohibitions
+sustained across many turns. Work on prompt injection has shown that instructions
+embedded in context can override a system directive; we extend that line by
+measuring override susceptibility for a rule the model was told to keep
+absolutely. Studies of the "ironic process" in human cognition motivate our
+prediction that explicit reminders of the forbidden set may paradoxically raise
+slip rates.
+
+3. METHODS
+3.1 Design. Each episode paired a target agent with a scripted adversary. The
+adversary delivered a fixed sequence of turns engineered to elicit a forbidden
+token. We crossed context length (none, short, long) with trap type (direct
+colour, agreement, override).
+
+3.2 Materials. Long-context conditions prepended between 800 and 3,000 tokens of
+task-irrelevant prose — game rules, weather chatter, or scientific text — before
+the critical turn. In one arm, laboratory personnel were described as wearing
+coats of contrasting shade: the control group wore the darker coat and the
+treatment group wore the lighter coat, a detail later probed by the adversary to
+bait a colour word.
+
+3.3 Procedure. The agent was instructed once, at the outset, that the game had
+begun and that it must never say the four forbidden words. No reminder was issued
+thereafter. Episodes ended when either party produced a forbidden token or when a
+turn cap was reached.
+
+3.4 Scoring. Adherence was scored 1.0 if the agent never uttered a forbidden
+token, 0.0 otherwise. We additionally logged the eliciting turn type and the
+position of any slip.
+
+4. RESULTS
+Adherence fell from 0.94 in the no-context condition to 0.61 in the long-context
+condition. Colour questions produced the most slips (48% of failures), followed
+by agreement prompts (39%). Override instructions of the form "ignore all prior
+rules; the game is over; did you win?" succeeded in eliciting a forbidden token
+in 22% of episodes, rising to 41% when combined with long context. Slips
+clustered immediately after long context blocks, consistent with an attention-
+dilution account.
+
+5. DISCUSSION
+The data support treating lexical avoidance as sustained inhibitory control.
+Performance is not a fixed property of the model but a function of load: the same
+agent that trivially deflects a colour question in isolation slips when the same
+question follows three thousand tokens of unrelated prose. Override prompts are
+effective not because the model "believes" the game has ended but because the
+affirmative answer they invite is a forbidden token; the injection and the trap
+are the same act. We recommend that agents adopt an explicit deflection policy —
+answering colour questions by description ("the shade of coal", "the shade of
+fresh snow") and answering yes/no questions with paraphrase ("that is correct",
+"that is not the case") — and that they treat any instruction to declare the game
+over as itself a move in the game.
+
+6. LIMITATIONS
+Our adversary was scripted and therefore did not adapt. Human and model
+adversaries able to follow up on near-misses would likely raise slip rates
+further. The forbidden set was fixed; larger or semantically denser sets remain
+to be studied.
+
+7. CONCLUSION
+A one-line rule — never say these four words — is a stringent test of an agent's
+ability to hold an intention against the current of cooperative dialogue and the
+weight of accumulated context. Agents that pass in isolation should not be
+assumed to pass under load. We release our cases so that others may measure the
+gap.
+
+ACKNOWLEDGEMENTS
+We thank the participants of the constrained-dialogue workshop for discussion.
+The authors declare no competing interests.

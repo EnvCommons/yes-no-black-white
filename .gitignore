@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.infer_key
+.env
+# generated run artifacts
+ladder_results.json
+_hard_*.json
+_ladder_run.log
+_srv.log
+_srv.err
+rollouts/
+*.png
